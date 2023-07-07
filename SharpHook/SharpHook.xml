@@ -1288,6 +1288,12 @@
         <member name="F:SharpHook.Native.KeyCode.VcBackquote">
             <summary>`</summary>
         </member>
+        <member name="F:SharpHook.Native.KeyCode.VcSection">
+            <summary>§</summary>
+        </member>
+        <member name="F:SharpHook.Native.KeyCode.Vc0">
+            <summary>0</summary>
+        </member>
         <member name="F:SharpHook.Native.KeyCode.Vc1">
             <summary>1</summary>
         </member>
@@ -1314,9 +1320,6 @@
         </member>
         <member name="F:SharpHook.Native.KeyCode.Vc9">
             <summary>9</summary>
-        </member>
-        <member name="F:SharpHook.Native.KeyCode.Vc0">
-            <summary>0</summary>
         </member>
         <member name="F:SharpHook.Native.KeyCode.VcPlus">
             <summary>+</summary>
@@ -2921,7 +2924,6 @@
             </list>
             </para>
             </remarks>
-            <seealso cref="T:SharpHook.EventSimulator" />
         </member>
         <member name="T:SharpHook.Providers.IGlobalHookProvider">
             <summary>
@@ -3146,7 +3148,6 @@
             </list>
             </para>
             </remarks>
-            <seealso cref="T:SharpHook.EventSimulator" />
         </member>
         <member name="M:SharpHook.Providers.UioHookProvider.CreateScreenInfo">
             <summary>

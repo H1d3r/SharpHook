@@ -14,7 +14,7 @@
     <Authors>Tolik Pylypchuk</Authors>
     <Company>Tolik Pylypchuk</Company>
     <Product>SharpHook</Product>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <Copyright>(c) 2021 Anatoliy Pylypchuk</Copyright>
     <Description>Provides a cross-platform global keyboard and mouse hook for .NET, and the ability to simulate input events</Description>
     <RepositoryType>git</RepositoryType>
@@ -43,10 +43,6 @@
       <PackagePath>build/SharpHook.targets</PackagePath>
       <Pack>True</Pack>
     </None>
-    <None Include="..\LICENSE">
-      <Pack>True</Pack>
-      <PackagePath />
-    </None>
     <None Include="..\icon.png">
       <Pack>True</Pack>
       <PackagePath />
@@ -68,6 +64,14 @@
     </None>
     <None Include="lib\linux-arm64\libuiohook.so">
       <PackagePath>runtimes/linux-arm64/native/libuiohook.so</PackagePath>
+      <Pack>True</Pack>
+    </None>
+    <None Include="lib\maccatalyst-x64\libuiohook.dylib">
+      <PackagePath>runtimes/maccatalyst-x64/native/libuiohook.dylib</PackagePath>
+      <Pack>True</Pack>
+    </None>
+    <None Include="lib\maccatalyst-arm64\libuiohook.dylib">
+      <PackagePath>runtimes/maccatalyst-arm64/native/libuiohook.dylib</PackagePath>
       <Pack>True</Pack>
     </None>
     <None Include="lib\osx-x64\libuiohook.dylib">
